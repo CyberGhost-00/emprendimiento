@@ -1,44 +1,105 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termigrafic S.A.S</title>
+    <title>Termigrafic S.A.S | Empaques Premium</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
+    <!-- HEADER -->
+
+    <header class="header">
         <nav class="navbar">
-            <div class="logo">TERMIGRAFIC S.A.S</div>
+            <div class="logo">
+                TERMIGRAFIC <span>S.A.S</span>
+            </div>
 
             <ul class="menu">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>
+                <li><a href="#cotizacion">Cotización</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="inicio" class="hero">
+    <!-- HERO -->
+
+    <section class="hero" id="inicio">
+
         <div class="hero-content">
-            <h1>Transformamos Ideas en Impresiones Extraordinarias</h1>
+
+            <div class="hero-badge">
+                EMPAQUES PREMIUM · IMPRESIÓN OFFSET · ETIQUETAS
+            </div>
+
+            <h1>
+                Soluciones de Empaque e Impresión
+                de Clase Mundial
+            </h1>
 
             <p>
-                Expertos en cajas plegadizas, etiquetas adhesivas,
-                empaques premium y soluciones gráficas de alto impacto.
+                Fabricamos cajas plegadizas, etiquetas adhesivas,
+                empaques premium y soluciones gráficas que elevan
+                el valor de tu marca.
             </p>
 
-            <a href="https://wa.me/573103278577" class="btn">
-                Solicitar Cotización
-            </a>
+            <div class="hero-buttons">
+
+                <a href="#cotizacion" class="btn-primary">
+                    Solicitar Cotización
+                </a>
+
+                <a href="https://wa.me/573103278577"
+                   target="_blank"
+                   class="btn-secondary">
+                    WhatsApp
+                </a>
+
+            </div>
+
         </div>
+
     </section>
+
+    <!-- ESTADÍSTICAS -->
+
+    <section class="stats">
+
+        <div class="stat-card">
+            <h2>20+</h2>
+            <p>Años de Experiencia</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>500+</h2>
+            <p>Clientes Atendidos</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>10M+</h2>
+            <p>Impresiones Realizadas</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>100%</h2>
+            <p>Control de Calidad</p>
+        </div>
+
+    </section>
+
+    <!-- SERVICIOS -->
 
     <section id="servicios" class="services">
 
-        <h2>Nuestros Servicios</h2>
+        <div class="section-title">
+            <h2>Nuestros Servicios</h2>
+            <p>Soluciones gráficas diseñadas para destacar tu marca.</p>
+        </div>
 
         <div class="cards">
 
@@ -47,15 +108,13 @@
 
                     <div class="flip-card-front">
                         <h3>Cajas Plegadizas</h3>
-                        <p>Empaques Premium</p>
                     </div>
 
                     <div class="flip-card-back">
                         <h3>Cajas Plegadizas</h3>
                         <p>
-                            Fabricamos cajas para perfumes,
-                            cosméticos y productos premium
-                            con acabados de alta calidad.
+                            Empaques para perfumería,
+                            cosmética y productos premium.
                         </p>
                     </div>
 
@@ -67,14 +126,13 @@
 
                     <div class="flip-card-front">
                         <h3>Etiquetas Adhesivas</h3>
-                        <p>Alta Definición</p>
                     </div>
 
                     <div class="flip-card-back">
                         <h3>Etiquetas Adhesivas</h3>
                         <p>
-                            Etiquetas con máxima precisión,
-                            excelente adherencia y colores vibrantes.
+                            Impresión de alta definición
+                            con máxima fidelidad de color.
                         </p>
                     </div>
 
@@ -85,16 +143,14 @@
                 <div class="flip-card-inner">
 
                     <div class="flip-card-front">
-                        <h3>Control de Color</h3>
-                        <p>Precisión Garantizada</p>
+                        <h3>Acabados Especiales</h3>
                     </div>
 
                     <div class="flip-card-back">
-                        <h3>Control de Color</h3>
+                        <h3>Acabados Especiales</h3>
                         <p>
-                            Aseguramos consistencia cromática
-                            para que cada impresión conserve
-                            la identidad de tu marca.
+                            Laminados, barnices UV,
+                            estampados y acabados premium.
                         </p>
                     </div>
 
@@ -105,22 +161,117 @@
 
     </section>
 
-    <section id="nosotros" class="about">
+    <!-- VENTAJAS -->
 
-        <h2>¿Quiénes Somos?</h2>
+    <section id="ventajas" class="advantages">
+
+        <div class="section-title">
+            <h2>¿Por Qué Elegirnos?</h2>
+        </div>
+
+        <div class="adv-grid">
+
+            <div class="adv-card">
+                <h3>Calidad Garantizada</h3>
+                <p>Control estricto en cada etapa de producción.</p>
+            </div>
+
+            <div class="adv-card">
+                <h3>Tecnología</h3>
+                <p>Procesos modernos para resultados consistentes.</p>
+            </div>
+
+            <div class="adv-card">
+                <h3>Cumplimiento</h3>
+                <p>Entregas oportunas para tus proyectos.</p>
+            </div>
+
+            <div class="adv-card">
+                <h3>Innovación</h3>
+                <p>Desarrollo de empaques que generan impacto.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- COTIZACIÓN -->
+
+    <section id="cotizacion" class="quotation">
+
+        <div class="section-title">
+            <h2>Solicita tu Cotización</h2>
+            <p>Cuéntanos los detalles de tu proyecto.</p>
+        </div>
+
+        <form class="quote-form">
+
+            <input type="text" placeholder="Nombre Completo">
+
+            <input type="text" placeholder="Empresa">
+
+            <input type="email" placeholder="Correo Electrónico">
+
+            <input type="tel" placeholder="Teléfono">
+
+            <select>
+                <option>Tipo de Producto</option>
+                <option>Caja Plegadiza</option>
+                <option>Etiqueta Adhesiva</option>
+                <option>Empaque Premium</option>
+                <option>Otro</option>
+            </select>
+
+            <select>
+                <option>Medida de Impresión</option>
+                <option>35 x 25 cm</option>
+                <option>50 x 35 cm</option>
+                <option>70 x 50 cm</option>
+                <option>100 x 70 cm</option>
+                <option>Personalizada</option>
+            </select>
+
+            <select>
+                <option>Cantidad</option>
+                <option>500</option>
+                <option>1000</option>
+                <option>5000</option>
+                <option>10000</option>
+                <option>Más de 10000</option>
+            </select>
+
+            <textarea rows="5"
+                placeholder="Describe tu proyecto...">
+            </textarea>
+
+            <button type="submit">
+                Solicitar Cotización
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section id="contacto" class="contact">
+
+        <h2>Hablemos de tu Próximo Proyecto</h2>
 
         <p>
-            En Termigrafic S.A.S ofrecemos soluciones gráficas
-            innovadoras para empresas que buscan destacar sus productos
-            mediante empaques, cajas y etiquetas de alta calidad.
+            Estamos listos para ayudarte a desarrollar
+            empaques y soluciones gráficas de alto impacto.
         </p>
 
     </section>
 
-    <footer id="contacto">
+    <!-- FOOTER -->
 
-        <p>
-            "La excelencia gráfica comienza donde la creatividad se encuentra con la precisión."
+    <footer>
+
+        <p class="phrase">
+            "La excelencia gráfica transforma productos
+            en marcas memorables."
         </p>
 
         <p>
@@ -129,9 +280,14 @@
 
     </footer>
 
-    <a href="https://wa.me/573103278577" class="whatsapp" target="_blank">
+    <!-- WHATSAPP -->
+
+    <a href="https://wa.me/573103278577"
+       target="_blank"
+       class="whatsapp">
         💬
     </a>
 
 </body>
 </html>
+```
